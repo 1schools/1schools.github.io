@@ -22,7 +22,17 @@
     <input type="text" name="email" placeholder="enter your email address" />
     <input type="submit" name="submit" value="Register" />
     </form>
-    
+                <?php
+				if ( isset($_POST['email']) ){
+					$email = $_POST['email'];
+					if( @mail('register@1schools.com','email: '.$email,"From:info@1schools.com\nReply-To:".$email) ){
+						echo '<p class"sendok">we got your mail. you will hear from us soon</p>';
+					}else{
+						echo '<p class"sendnok">please enter your mail again!</p>';
+					}
+				}
+			?>
+
 </section>
 </body>
 </html>
