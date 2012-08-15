@@ -41,7 +41,18 @@ section.container h3{
 	text-transform:capitalize;
 	color: #fff9d6;
 	font-weight:bold;
-	font-size: 40px;
+	font-size: 30px;
 	text-align:center;
 	text-shadow:0px 0px 0 rgb(204,204,204),1px 1px 0 rgb(179,179,179),2px 2px 0 rgb(155,155,155),3px 3px 0 rgb(130,130,130),4px 4px 0 rgb(105,105,105), 5px 5px 0 rgb(80,80,80),6px 6px 5px rgba(0,0,0,0.4),6px 6px 1px rgba(0,0,0,0.5),0px 0px 5px rgba(0,0,0,.2);
+}
+
+section.container form{
+	width:235px;
+	margin-top:20px;
+}
+
+section.container form input[type=submit]{
+	border:0;
+	background-color:#D6D6D6; /*age image tamame height ro begire submit dide mishe*/
+	cursor:pointer;
 }

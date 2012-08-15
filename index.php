@@ -18,10 +18,12 @@
     </div>
     <!--<h3>please be patient for our new classes.</h3>-->
     <h3>do you want to know when we start? so put your mail here</h3>
-    <form action="" method="post">
-    <input type="text" name="email" placeholder="enter your email address" />
-    <input type="submit" name="submit" value="Register" />
-    </form>
+   
+        <form action="" method="post" class="mla mra">
+        <input type="text" name="email" placeholder="enter your email address" />
+        <input type="submit" name="submit" value="Register" />
+        </form>
+ 
     
 	<?php
 		if ( isset($_POST['email']) ){
