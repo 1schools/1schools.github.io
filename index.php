@@ -18,10 +18,11 @@
     </div>
     <h3>please be patient for our new classes.</h3>
     <p>do you want to know when we start? so put your mail here</p>
-    <form>
+    <form action="" method="post">
     <input type="text" name="email" placeholder="enter your email address" />
     <input type="submit" name="submit" value="Register" />
     </form>
+    
 </section>
 </body>
 </html>
