@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="fa" dir="rtl">
 <head>
 <meta charset="utf-8">
 <title>1schools (1Devs Education Department)</title>
@@ -9,7 +9,7 @@
 </head>
 <body>
 <section class="container">
-	<h1>1schools (1Devs Education Department)</h1>
+	<h1>دپارتمان آموزشی 1schoos تقدیم میکند</h1>
     <div class="video-container mla mra">
         <video controls="controls">
             <source src="video/movie.webm" type="video/webm" />
@@ -17,11 +17,11 @@
         </video>
     </div>
     <!--<h3>please be patient for our new classes.</h3>-->
-    <h3>do you want to know when we start? so put your mail here</h3>
+    <h3>برای آگاه شدن از زمان شروع کلاس ها میتوانید در خبرنامه ما عضو شوید</h3>
    
         <form action="" method="post" class="mla mra">
-        <input type="text" name="email" placeholder="enter your email address" />
-        <input type="submit" name="submit" value="Register" />
+        <input type="text" name="email" placeholder="ایمیل خود را وارد نمایید" />
+        <input type="submit" name="submit" value="ثبت نام" />
         </form>
  
     
