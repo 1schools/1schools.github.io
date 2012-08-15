@@ -38,6 +38,7 @@ section.container h1{
 section.container h3{
 	font-family: Garamond, serif;
 	line-height: 1em;
+	text-transform:capitalize;
 	color: #fff9d6;
 	font-weight:bold;
 	font-size: 40px;
