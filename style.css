@@ -1,0 +1,46 @@
+body{
+	background-image:url('images/back.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	/*background-position:left;*/
+	position:fixed;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+}
+
+section.container{
+	padding-top:1px;
+}
+
+section.container div.video-container{
+	width:558px;
+}
+
+div.video-container video{
+	margin-top:20px;
+	
+	height:415px;
+}
+
+section.container h1{
+	font-family: Garamond, serif;
+	line-height: 1em;
+	color: #fff9d6;
+	font-weight:bold;
+	font-size: 50px;
+	text-align:center;
+	text-shadow:0px 0px 0 rgb(204,204,204),1px 1px 0 rgb(179,179,179),2px 2px 0 rgb(155,155,155),3px 3px 0 rgb(130,130,130),4px 4px 0 rgb(105,105,105), 5px 5px 0 rgb(80,80,80),6px 6px 5px rgba(0,0,0,0.4),6px 6px 1px rgba(0,0,0,0.5),0px 0px 5px rgba(0,0,0,.2);
+}
+
+
+section.container h3{
+	font-family: Garamond, serif;
+	line-height: 1em;
+	color: #fff9d6;
+	font-weight:bold;
+	font-size: 40px;
+	text-align:center;
+	text-shadow:0px 0px 0 rgb(204,204,204),1px 1px 0 rgb(179,179,179),2px 2px 0 rgb(155,155,155),3px 3px 0 rgb(130,130,130),4px 4px 0 rgb(105,105,105), 5px 5px 0 rgb(80,80,80),6px 6px 5px rgba(0,0,0,0.4),6px 6px 1px rgba(0,0,0,0.5),0px 0px 5px rgba(0,0,0,.2);
+}
