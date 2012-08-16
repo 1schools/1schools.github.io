@@ -11,6 +11,18 @@ div.backimg{
 	z-index:-1;
 }
 
+header div.header-back{
+	background-image:url('images/top_bg.png');
+	background-repeat:repeat-x;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	opacity: 0.65;
+	height: 23px;
+}
+
 section.container{
 	padding-top:1px;
 }
@@ -25,13 +37,14 @@ div.video-container video{
 }
 
 div.logo{
-	margin-top:10px;
+	margin-top:25px;
+	margin-left:30px;
 }
 
 div.logo h1{
 	font-family: Garamond, serif;
 	line-height: 1em;
-	color: #fff9d6;
+	color: #FFF;
 	font-weight:bold;
 	font-size: 50px;
 	text-align:left;
@@ -43,7 +56,7 @@ div.logo h3{
 	font-family: Garamond, serif;
 	line-height: 1em;
 	text-transform:capitalize;
-	color: #fff9d6;
+	color: #FFF;
 	font-weight:bold;
 	font-size: 25px;
 	text-align:left;
@@ -64,4 +77,17 @@ section.container form input[type=submit]{
 
 section.container form input[type=submit]:active{
 	border:solid 1px #999;
+}
+
+footer{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity: .9;
+	z-index: 1;
+	height:60px;
+	background-image: url('images/bot_bg.png');
+	background-size: contain;
+	background-repeat: repeat-x;
 }
