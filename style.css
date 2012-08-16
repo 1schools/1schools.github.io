@@ -1,13 +1,14 @@
-body{
+div.backimg{
 	background-image:url('images/back.jpg');
 	background-repeat:no-repeat;
 	background-size:cover;
-	/*background-position:left;*/
+	background-position:left bottom;
 	position:fixed;
 	top:0;
 	bottom:0;
 	left:0;
 	right:0;
+	z-index:-1;
 }
 
 section.container{
@@ -23,24 +24,30 @@ div.video-container video{
 	height:415px;
 }
 
-section.container h1{
+div.logo{
+	margin-top:10px;
+}
+
+div.logo h1{
 	font-family: Garamond, serif;
 	line-height: 1em;
 	color: #fff9d6;
 	font-weight:bold;
 	font-size: 50px;
-	text-align:center;
+	text-align:left;
+	text-transform:uppercase;
 	text-shadow:0px 0px 0 rgb(204,204,204),1px 1px 0 rgb(179,179,179),2px 2px 0 rgb(155,155,155),3px 3px 0 rgb(130,130,130),4px 4px 0 rgb(105,105,105), 5px 5px 0 rgb(80,80,80),6px 6px 5px rgba(0,0,0,0.4),6px 6px 1px rgba(0,0,0,0.5),0px 0px 5px rgba(0,0,0,.2);
 }
 
-section.container h3{
+div.logo h3{
 	font-family: Garamond, serif;
 	line-height: 1em;
 	text-transform:capitalize;
 	color: #fff9d6;
 	font-weight:bold;
-	font-size: 30px;
-	text-align:center;
+	font-size: 25px;
+	text-align:left;
+	text-transform:capitalize;
 	text-shadow:0px 0px 0 rgb(204,204,204),1px 1px 0 rgb(179,179,179),2px 2px 0 rgb(155,155,155),3px 3px 0 rgb(130,130,130),4px 4px 0 rgb(105,105,105), 5px 5px 0 rgb(80,80,80),6px 6px 5px rgba(0,0,0,0.4),6px 6px 1px rgba(0,0,0,0.5),0px 0px 5px rgba(0,0,0,.2);
 }
 
