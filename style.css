@@ -114,10 +114,17 @@ section.content-container{
 	padding-top:1px;
 	margin-top:20px;
 	min-height:450px;
+}
+section.content-container div.content{
 	position:relative;
+	width:950px;
+	height:424px;
+	margin:30px auto 0;
+	/*overflow:hidden;*/
+	outline:2px solid blue;
 }
 
-section.content-container div.train{
+div.content div.train{
 	width:5000px;
 	outline:1px solid red;
 	position:absolute;
@@ -126,14 +133,16 @@ section.content-container div.train{
 	-webkit-transition : left 800ms ease-in-out;
 }
 
+div.content div.train > div{
+	float:left;
+}
 
 section.content-container div.video-container{
-	width:558px;
+	
 }
 
 div.video-container video{
-	margin-top:20px;
-	height:415px;
+	
 }
 
 section.content-container form{
