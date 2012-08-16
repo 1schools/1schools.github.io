@@ -119,8 +119,8 @@ section.content-container div.content{
 	position:relative;
 	width:950px;
 	height:424px;
-	margin:30px auto 0;
-	/*overflow:hidden;*/
+	margin-top:10px;
+	overflow:hidden;
 	outline:2px solid blue;
 }
 
