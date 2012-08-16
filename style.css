@@ -112,7 +112,7 @@ nav li.last{
 
 section.content-container{
 	padding-top:1px;
-	margin-top:30px;
+	margin-top:40px;
 	min-height:450px;
 }
 section.content-container div.content{
@@ -120,12 +120,10 @@ section.content-container div.content{
 	width:950px;
 	height:425px;
 	overflow:hidden;
-	outline:2px solid blue;
 }
 
 div.content div.train{
 	width:5000px;
-	outline:1px solid red;
 	position:absolute;
 	left:0;
 	top: 0;
@@ -142,11 +140,26 @@ div.content div.train > div{
 }
 
 section.content-container div.video-container{
+	position:relative;
 }
 
 div.video-container video{
 	display:block;
 	height:425px;
+}
+
+div.video-container div.play{
+	position:absolute;
+	top:0;
+	left:193px;
+	z-index:1;
+	background-image:url(images/play-button.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+	height:425px;
+	width:566px;
+	background-color:rgba(0,0,0,0.8);
+	cursor:pointer;
 }
 
 section.content-container form{
