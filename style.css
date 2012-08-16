@@ -55,12 +55,8 @@ div.logo h3{
 
 header nav{
 	position:fixed;
-	top:30px;
+	top:40px;
 	right:20px;
-}
-
-nav ul{
-	
 }
 
 nav li{
@@ -68,7 +64,12 @@ nav li{
 	box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
 	float:right;
 	border-top: 1px solid white;
+	border-bottom: 1px solid white;
 	border-right: 1px solid rgba(255, 255, 255, 0.3);
+	-webkit-transition:color 400ms ease-in-out;
+	-moz-transition:color 400ms ease-in-out;
+	-ms-transition:color 400ms ease-in-out;
+	-o-transition:color 400ms ease-in-out;
 }
 
 nav li a{
@@ -78,6 +79,19 @@ nav li a{
 	padding: 12px 14px;
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:14px;
+	transition:color 400ms ease-in-out;
+	-webkit-transition:color 400ms ease-in-out;
+	-moz-transition:color 400ms ease-in-out;
+	-ms-transition:color 400ms ease-in-out;
+	-o-transition:color 400ms ease-in-out;
+}
+
+nav li:hover a{
+	color:#007ACC;
+}
+
+nav li:hover{
+	background-color:#FFF;
 }
 
 nav li.active{
@@ -87,6 +101,7 @@ nav li.active{
 
 nav li.first{
 	border-radius:0 10px 10px 0;
+	border-right:0;
 }
 
 nav li.last{
