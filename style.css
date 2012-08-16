@@ -86,11 +86,11 @@ nav li.active{
 }
 
 nav li.first{
-	
+	border-radius:0 10px 10px 0;
 }
 
 nav li.last{
-	
+	border-radius:10px 0 0 10px;
 }
 
 section.container{
