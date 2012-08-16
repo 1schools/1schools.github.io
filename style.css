@@ -55,17 +55,35 @@ div.logo h3{
 
 header nav{
 	position:fixed;
-	outline:1px solid red;
 	top:30px;
 	right:20px;
 }
 
+nav ul{
+	background-color: rgba(255, 255, 255, 0.85);
+	border: 1px solid white;
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+	float: right;
+	margin-top: 62px;	
+}
+
 nav li{
-	
+	float:right;
+	border-right: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 nav li a{
-	
+	display:block;
+	text-decoration:none;
+	color:#373737;
+	padding: 12px 14px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+}
+
+nav li.active{
+	background: -webkit-gradient(linear, left top, left bottom, from(#DDD), to(white));
+	background: -moz-linear-gradient(center top , #DDD 0%, #FCFCFC 15%, white 100%) repeat scroll 0 0 transparent;	
 }
 
 section.container{
