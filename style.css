@@ -11,6 +11,10 @@ div.backimg{
 	z-index:-1;
 }
 
+header{
+	min-height:130px;
+}
+
 header div.header-back{
 	background-image:url('images/top_bg.png');
 	background-repeat:repeat-x;
@@ -52,7 +56,7 @@ div.logo h3{
 
 header nav{
 	position:fixed;
-	top:40px;
+	top:50px;
 	right:20px;
 }
 
@@ -106,11 +110,15 @@ nav li.last{
 	border-radius:10px 0 0 10px;
 }
 
-section.container{
+section.content-container{
 	padding-top:1px;
+	margin-top:20px;
+	outline:1px solid red;
+	min-height:450px;
+	position:relative;
 }
 
-section.container div.video-container{
+section.content-container div.video-container{
 	width:558px;
 }
 
@@ -119,18 +127,18 @@ div.video-container video{
 	height:415px;
 }
 
-section.container form{
+section.content-container form{
 	width:235px;
 	margin-top:20px;
 }
 
-section.container form input[type=submit]{
+section.content-container form input[type=submit]{
 	border:0;
 	background-color:#D6D6D6; /*age image tamame height ro begire submit dide mishe*/
 	cursor:pointer;
 }
 
-section.container form input[type=submit]:active{
+section.content-container form input[type=submit]:active{
 	border:solid 1px #999;
 }
 
@@ -141,7 +149,7 @@ footer{
 	right: 0;
 	opacity: .9;
 	z-index: 1;
-	height:60px;
+	height:40px;
 	background-image: url('images/bot_bg.png');
 	background-size: contain;
 	background-repeat: repeat-x;
