@@ -23,22 +23,10 @@ header div.header-back{
 	height: 23px;
 }
 
-section.container{
-	padding-top:1px;
-}
-
-section.container div.video-container{
-	width:558px;
-}
-
-div.video-container video{
-	margin-top:20px;
-	height:415px;
-}
-
-div.logo{
-	margin-top:25px;
-	margin-left:30px;
+header div.logo{
+	position:fixed;
+	top:30px;
+	left:20px;
 }
 
 div.logo h1{
@@ -62,6 +50,35 @@ div.logo h3{
 	text-align:left;
 	text-transform:capitalize;
 	text-shadow:0px 0px 0 rgb(204,204,204),1px 1px 0 rgb(179,179,179),2px 2px 0 rgb(155,155,155),3px 3px 0 rgb(130,130,130),4px 4px 0 rgb(105,105,105), 5px 5px 0 rgb(80,80,80),6px 6px 5px rgba(0,0,0,0.4),6px 6px 1px rgba(0,0,0,0.5),0px 0px 5px rgba(0,0,0,.2);
+}
+
+
+header nav{
+	position:fixed;
+	outline:1px solid red;
+	top:30px;
+	right:20px;
+}
+
+nav li{
+	
+}
+
+nav li a{
+	
+}
+
+section.container{
+	padding-top:1px;
+}
+
+section.container div.video-container{
+	width:558px;
+}
+
+div.video-container video{
+	margin-top:20px;
+	height:415px;
 }
 
 section.container form{
