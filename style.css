@@ -66,10 +66,10 @@ nav li{
 	border-top: 1px solid white;
 	border-bottom: 1px solid white;
 	border-right: 1px solid rgba(255, 255, 255, 0.3);
-	-webkit-transition:color 400ms ease-in-out;
-	-moz-transition:color 400ms ease-in-out;
-	-ms-transition:color 400ms ease-in-out;
-	-o-transition:color 400ms ease-in-out;
+	-webkit-transition:background 400ms ease-in-out;
+	-moz-transition:background 400ms ease-in-out;
+	-ms-transition:background 400ms ease-in-out;
+	-o-transition:background 400ms ease-in-out;
 }
 
 nav li a{
@@ -79,6 +79,7 @@ nav li a{
 	padding: 12px 14px;
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:14px;
+	text-shadow:1px 1px 2px #FFF;
 	transition:color 400ms ease-in-out;
 	-webkit-transition:color 400ms ease-in-out;
 	-moz-transition:color 400ms ease-in-out;
