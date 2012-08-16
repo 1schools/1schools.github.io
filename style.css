@@ -118,7 +118,7 @@ section.content-container{
 section.content-container div.content{
 	position:relative;
 	width:950px;
-	height:424px;
+	height:425px;
 	overflow:hidden;
 	outline:2px solid blue;
 }
@@ -138,14 +138,15 @@ div.content div.train{
 
 div.content div.train > div{
 	float:left;
+	width:950px;
 }
 
 section.content-container div.video-container{
-	
 }
 
 div.video-container video{
-	
+	display:block;
+	height:425px;
 }
 
 section.content-container form{
