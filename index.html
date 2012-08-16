@@ -6,6 +6,12 @@
 <link type="text/css" rel="stylesheet" href="reset.css" />
 <link type="text/css" rel="stylesheet" href="1styles.css" />
 <link type="text/css" rel="stylesheet" href="style.css" />
+<script type="text/javascript">
+	function play(){
+		document.getElementsByTagName('video').item(0).play();
+		document.getElementsByClassName('play').item(0).style.display='none';
+	}
+</script>
 </head>
 <body>
 <div class="top-bg"></div>
@@ -46,7 +52,7 @@
 					<source src="video/movie.mp4" type="video/mp4" />
 					Your browser is too old. Please update it.
 				</video>
-				<div class="play"></div>
+				<div class="play" onClick="play();"></div>
             </div>
 		</div>
 	</div>
