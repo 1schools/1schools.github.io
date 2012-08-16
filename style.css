@@ -60,14 +60,14 @@ header nav{
 }
 
 nav ul{
-	background-color: rgba(255, 255, 255, 0.85);
-	border: 1px solid white;
-	box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
-/*	border-radius:10px 10px 10px 10px;*/
+	
 }
 
 nav li{
+	background-color: rgba(255, 255, 255, 0.85);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
 	float:right;
+	border-top: 1px solid white;
 	border-right: 1px solid rgba(255, 255, 255, 0.3);
 }
 
