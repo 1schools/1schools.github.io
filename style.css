@@ -1,0 +1,203 @@
+div.backimg{
+	background-image:url('images/back.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:left bottom;
+	position:fixed;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	z-index:-2;
+}
+
+div.noise {
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	z-index:-1;
+	background-position:left top;
+	background-repeat:repeat;
+	background-image:url('images/picefct.png');
+}
+
+div.top-bg{
+	background-image:url('images/top_bg.png');
+	background-repeat:repeat-x;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	opacity: 0.65;
+	height: 23px;
+}
+
+header{
+	min-height:130px;
+}
+
+header div.logo{
+	position:fixed;
+	top:30px;
+	left:20px;
+}
+
+div.logo h1{
+	font-family: "Times New Roman", Times, serif;
+	color: #FFF;
+	font-weight:bold;
+	font-size: 55px;
+	text-align:left;
+	text-transform:uppercase;
+	text-shadow:0px 0px 0 rgb(201,201,201),1px 1px 0 rgb(148,148,148),2px 2px 0 rgb(94,94,94), 3px 3px 0 rgb(40,40,40),4px 4px 3px rgba(0,0,0,0.2),4px 4px 1px rgba(0,0,0,0.5),0px 0px 3px rgba(0,0,0,.2);
+}
+
+
+div.logo h3{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 38px;
+	text-transform:capitalize;
+	color: #FFF;
+	font-weight:bold;
+	text-align:left;
+	text-shadow:0px 0px 0 rgb(191,191,191),1px 1px 0 rgb(126,126,126), 2px 2px 0 rgb(62,62,62),3px 3px 2px rgba(0,0,0,0.4),3px 3px 1px rgba(0,0,0,0.5),0px 0px 2px rgba(0,0,0,.2);
+}
+
+header nav{
+	position:fixed;
+	top:55px;
+	right:20px;
+}
+
+nav li{
+	background-color: rgba(255, 255, 255, 0.85);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+	float:right;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	border-right: 1px solid rgba(255, 255, 255, 0.3);
+	-webkit-transition:background 400ms ease-in-out;
+	-moz-transition:background 400ms ease-in-out;
+	-ms-transition:background 400ms ease-in-out;
+	-o-transition:background 400ms ease-in-out;
+}
+
+nav li a{
+	display:block;
+	text-decoration:none;
+	color:#373737;
+	padding: 12px 14px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	text-shadow:1px 1px 2px #FFF;
+	transition:color 400ms ease-in-out;
+	-webkit-transition:color 400ms ease-in-out;
+	-moz-transition:color 400ms ease-in-out;
+	-ms-transition:color 400ms ease-in-out;
+	-o-transition:color 400ms ease-in-out;
+}
+
+nav li:hover a{
+	color:#007ACC;
+}
+
+nav li:hover{
+	background-color:#FFF;
+}
+
+nav li.active{
+	background: -webkit-gradient(linear, left top, left bottom, from(#DDD), to(white));
+	background: -moz-linear-gradient(center top , #DDD 0%, #FCFCFC 15%, white 100%) repeat scroll 0 0 transparent;	
+}
+
+nav li:first-child{
+	border-radius:0 10px 10px 0;
+	border-right:0;
+}
+
+nav li:last-child{
+	border-radius:10px 0 0 10px;
+}
+
+section.content-container{
+	padding-top:1px;
+	margin-top:40px;
+	min-height:450px;
+}
+section.content-container div.content{
+	position:relative;
+	width:950px;
+	height:425px;
+	overflow:hidden;
+}
+
+div.content div.train{
+	width:5000px;
+	position:absolute;
+	left:0;
+	top: 0;
+	transition : left 800ms ease-in-out;
+	-webkit-transition : left 800ms ease-in-out;
+	-moz-transition : left 800ms ease-in-out;
+	-ms-transition : left 800ms ease-in-out;
+	-o-transition : left 800ms ease-in-out;
+}
+
+div.content div.train > div{
+	float:left;
+	width:950px;
+}
+
+section.content-container div.video-container{
+	position:relative;
+}
+
+div.video-container video{
+	display:block;
+	height:425px;
+}
+
+div.video-container div.play{
+	position:absolute;
+	top:0;
+	left:193px;
+	z-index:1;
+	background-image:url(images/play-button.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+	height:425px;
+	width:566px;
+	background-color:rgba(0,0,0,0.8);
+	cursor:pointer;
+}
+
+section.content-container form{
+	width:235px;
+	margin-top:20px;
+}
+
+section.content-container form input[type=submit]{
+	border:0;
+	background-color:#D6D6D6; /*age image tamame height ro begire submit dide mishe*/
+	cursor:pointer;
+}
+
+section.content-container form input[type=submit]:active{
+	border:solid 1px #999;
+}
+
+footer{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity: .9;
+	z-index: 1;
+	height:40px;
+	background-image: url('images/bot_bg.png');
+	background-size: contain;
+	background-repeat: repeat-x;
+}
