@@ -8,7 +8,19 @@ div.backimg{
 	bottom:0;
 	left:0;
 	right:0;
+	z-index:-2;
+}
+
+div.noise {
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
 	z-index:-1;
+	background-position:left top;
+	background-repeat:repeat;
+	background-image:url('images/picefct.png');
 }
 
 div.top-bg{
