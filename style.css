@@ -113,12 +113,12 @@ nav li.active{
 	background: -moz-linear-gradient(center top , #DDD 0%, #FCFCFC 15%, white 100%) repeat scroll 0 0 transparent;	
 }
 
-nav li.first{
+nav li:first-child{
 	border-radius:0 10px 10px 0;
 	border-right:0;
 }
 
-nav li.last{
+nav li:last-child{
 	border-radius:10px 0 0 10px;
 }
 
