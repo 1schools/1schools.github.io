@@ -45,7 +45,7 @@ header div.logo{
 	left:20px;
 }
 
-div.logo h1{
+header div.logo h1{
 	font-family: "Times New Roman", Times, serif;
 	color: #FFF;
 	font-weight:bold;
@@ -56,7 +56,7 @@ div.logo h1{
 }
 
 
-div.logo h3{
+header div.logo h3{
 	font-family: "Times New Roman", Times, serif;
 	font-size: 38px;
 	text-transform:capitalize;
@@ -66,13 +66,13 @@ div.logo h3{
 	text-shadow:0px 0px 0 rgb(191,191,191),1px 1px 0 rgb(126,126,126), 2px 2px 0 rgb(62,62,62),3px 3px 2px rgba(0,0,0,0.4),3px 3px 1px rgba(0,0,0,0.5),0px 0px 2px rgba(0,0,0,.2);
 }
 
-header nav{
+header nav.menu{
 	position:fixed;
 	top:55px;
 	right:20px;
 }
 
-nav li{
+header nav.menu li{
 	background-color: rgba(255, 255, 255, 0.85);
 	box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
 	float:right;
@@ -85,7 +85,7 @@ nav li{
 	-o-transition:background 400ms ease-in-out;
 }
 
-nav li a{
+header nav.menu li a{
 	display:block;
 	text-decoration:none;
 	color:#373737;
@@ -100,25 +100,25 @@ nav li a{
 	-o-transition:color 400ms ease-in-out;
 }
 
-nav li:hover a{
+header nav.menu li:hover a{
 	color:#007ACC;
 }
 
-nav li:hover{
+header nav.menu li:hover{
 	background-color:#FFF;
 }
 
-nav li.active{
+header nav.menu li.active{
 	background: -webkit-gradient(linear, left top, left bottom, from(#DDD), to(white));
 	background: -moz-linear-gradient(center top , #DDD 0%, #FCFCFC 15%, white 100%) repeat scroll 0 0 transparent;	
 }
 
-nav li:first-child{
+header nav.menu li:first-child{
 	border-radius:0 10px 10px 0;
 	border-right:0;
 }
 
-nav li:last-child{
+header nav.menu li:last-child{
 	border-radius:10px 0 0 10px;
 }
 
