@@ -1,3 +1,30 @@
+@charset "UTF-8";
+
+div.headline{
+	background-image:url('images/top_bg.png');
+	background-repeat:repeat-x;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	opacity: 0.65;
+	height: 23px;
+}
+
+div.footline{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity: .9;
+	z-index: 1;
+	height:40px;
+	background-image: url('images/bot_bg.png');
+	background-size: contain;
+	background-repeat: repeat-x;
+}
+
 div.backimg{
 	background-image:url('images/back.jpg');
 	background-repeat:no-repeat;
@@ -11,7 +38,7 @@ div.backimg{
 	z-index:-2;
 }
 
-div.noise {
+div.backnoise {
 	position:fixed;
 	top:0;
 	left:0;
@@ -23,17 +50,6 @@ div.noise {
 	background-image:url('images/picefct.png');
 }
 
-div.top-bg{
-	background-image:url('images/top_bg.png');
-	background-repeat:repeat-x;
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	z-index: 1;
-	opacity: 0.65;
-	height: 23px;
-}
 
 header{
 	min-height:130px;
@@ -187,17 +203,4 @@ section.content-container form input[type=submit]{
 
 section.content-container form input[type=submit]:active{
 	border:solid 1px #999;
-}
-
-footer{
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	opacity: .9;
-	z-index: 1;
-	height:40px;
-	background-image: url('images/bot_bg.png');
-	background-size: contain;
-	background-repeat: repeat-x;
 }
