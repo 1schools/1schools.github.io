@@ -1,6 +1,6 @@
 ##1SCHOOLS
 
-1Devs Education Department Website by [Ali Mihandoost](http://alimd.github.com/)
+1Devs Education Department Website
 
 The [1SCHOOLS.com](http://1schools.com) code and website is released under MIT License.
 
