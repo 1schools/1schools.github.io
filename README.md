@@ -10,7 +10,7 @@ The [1SCHOOLS.com](http://1schools.com) code and website is released under MIT L
 
 * Clone and check source codes
 ```
-    git clone https://github.com/1dws/iran-akband.git
+    git clone https://github.com/1schools/1schools.github.com.git
 ```
 
 * Fork this repository and make some changes and pull request to [me](http://github.com/AliMD) ;)
