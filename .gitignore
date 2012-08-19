@@ -17,9 +17,8 @@ $RECYCLE.BIN/
 designs/
 *.psd
 
-#temp files and tests
+#temp and compiled files
 temp/
 jafang/
-
-#stylus
-style.css
+*.css
+*.html

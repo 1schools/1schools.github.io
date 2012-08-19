@@ -1,0 +1,65 @@
+- title = "1Schools - 1Devs Education Department"
+- menus = "#home:سرآغاز, #about:رباره ما, #classes:کلاس ها, #faq:سؤالات متداول, #contact:ارتباط با ما"
+
+!!! 5 SYSTEM "about:legacy-compat"
+//
+	|	This project is opensource !
+	|	but i minified files for load performance
+	|	If you need source you can find here
+	|	https://github.com/1schools/1schools.github.com 
+
+html(lang="fa-IR", dir="rtl", xmlns="http://www.w3.org/1999/xhtml")
+
+	head
+		title= title
+
+		meta(charset="utf-8")
+		meta(name="apple-mobile-web-app-capable", content="yes")
+		meta(name="apple-mobile-web-app-status-bar-style", content="black-translucent")
+		meta(name="viewport", content = "width = device-width, user-scalable = yes, initial-scale = 2.3, minimum-scale = 1, maximum-scale = 5")
+
+		link( type="text/css", rel="stylesheet", href="style.css")
+		link(type="image/x-icons", rel="shortcut icon", href="/favicon.ico")
+		link(rel="apple-touch-icon", href="/apple-touch-icon.png")
+		link(rel="apple-touch-startup-image", href="/startup.png")
+
+		script(type="text/javascript", src="scripts/zepto.js")
+		script(type="text/javascript", src="scripts/script.js")
+
+	body.pre
+		header.top
+			.headline
+			hgroup.logo
+				h1 1Schools
+				h2 1Devs Education Department
+			nav.menu
+				menu
+					- menus = menus.split(', ');
+					each menu in menus
+						- menu = menu.split(':');
+						li: a(href=menu[0])= menu[1]
+		.backnoise
+		.backimg
+		footer: .footline
+
+		section.pages
+
+			section.home.pre
+				.videoclip
+					video
+						|Your browser is too old. Please update it.
+						source(src="video/movie.webm", type="video/webm")
+						source(src="video/movie.mp4", type="video/mp4")
+					.playover
+
+			section.about.pre
+
+			section.classes.pre
+
+			section.faq.pre
+
+			section.contact.pre
+
+
+						
+
