@@ -20,3 +20,6 @@ designs/
 #temp files and tests
 temp/
 jafang/
+
+#stylus
+style.css

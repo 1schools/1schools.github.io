@@ -1,0 +1,77 @@
+/* Header logo
+-------------------------------------------------- */
+hgroup.logo
+	position:fixed
+	top:30px
+	left:20px
+
+hgroup.logo h1
+	font-family: "Times New Roman", Times, serif
+	color: #FFF
+	font-weight:bold
+	font-size: 55px
+	text-align:left
+	text-transform:uppercase
+	text-shadow:0px 0px 0 rgb(201,201,201),1px 1px 0 rgb(148,148,148),2px 2px 0 rgb(94,94,94), 3px 3px 0 rgb(40,40,40),4px 4px 3px rgba(0,0,0,0.2),4px 4px 1px rgba(0,0,0,0.5),0px 0px 3px rgba(0,0,0,.2)
+
+hgroup.logo h2
+	font-family: "Times New Roman", Times, serif
+	font-size: 38px
+	text-transform:capitalize
+	color: #FFF
+	font-weight:bold
+	text-align:left
+	text-shadow:0px 0px 0 rgb(191,191,191),1px 1px 0 rgb(126,126,126), 2px 2px 0 rgb(62,62,62),3px 3px 2px rgba(0,0,0,0.4),3px 3px 1px rgba(0,0,0,0.5),0px 0px 2px rgba(0,0,0,.2)
+
+/* Menu
+-------------------------------------------------- */
+nav.menu
+	position:fixed
+	top:55px
+	right:20px
+
+nav.menu menu
+	list-style-type: none
+
+nav.menu li
+	background-color: rgba(255, 255, 255, 0.85)
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0.1)
+	float:right
+	border-top: 1px solid white
+	border-bottom: 1px solid white
+	border-right: 1px solid rgba(255, 255, 255, 0.3)
+	-webkit-transition:background 400ms ease-in-out
+	-moz-transition:background 400ms ease-in-out
+	-ms-transition:background 400ms ease-in-out
+	-o-transition:background 400ms ease-in-out
+
+nav.menu li a
+	display:block
+	text-decoration:none
+	color:#373737
+	padding: 12px 14px
+	font-family:Tahoma, Geneva, sans-serif
+	font-size:14px
+	text-shadow:1px 1px 2px #FFF
+	transition:color 400ms ease-in-out
+	-webkit-transition:color 400ms ease-in-out
+	-moz-transition:color 400ms ease-in-out
+	-ms-transition:color 400ms ease-in-out
+	-o-transition:color 400ms ease-in-out
+
+nav.menu li:hover a
+	color:#007ACC
+
+nav.menu li:hover
+	background-color:#FFF
+
+nav.menu li.active
+	background: -webkit-gradient(linear, left top, left bottom, from(#DDD), to(white))
+	background: -moz-linear-gradient(center top , #DDD 0%, #FCFCFC 15%, white 100%) repeat scroll 0 0 transparent	
+
+nav.menu li:first-child
+	border-radius:0 10px 10px 0
+	border-right:0
+
+nav.menu li:last-child
+	border-radius:10px 0 0 10px
