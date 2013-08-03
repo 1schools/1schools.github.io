@@ -1,6 +1,6 @@
 ##1SCHOOLS
 
-1Devs Education Department Website
+1Devs Education Department Website (Disabled)
 
 The [1SCHOOLS.com](http://1schools.com) code and website is released under MIT License.
 
